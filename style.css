@@ -5,8 +5,7 @@
   font-family: monospace;
   overflow-x: hidden;
 }
-body
-{
+body {
   background-color: #f9f9f9;
   scroll-behavior: smooth;
 }
@@ -160,8 +159,7 @@ button {
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.about_me h1  {
-
+.about_me h1 {
   font-size: 3rem;
   font-family: "Montserrat", sans-serif;
   color: #333;
@@ -206,8 +204,7 @@ button {
   color: white;
 }
 
-.skills_experience
-{
+.skills_experience {
   width: 100vw;
   min-height: 400px;
   background-color: #f9f9f9;
@@ -217,19 +214,17 @@ button {
   flex-wrap: wrap;
   font-size: 2rem;
   text-align: justify;
- 
-
 }
 
-.projects,.skills
-{
+.projects,
+.skills {
   margin-right: 5rem;
   max-width: 100%;
   overflow-wrap: break-word;
 }
 
-.skills ul,.projects ul
-{
+.skills ul,
+.projects ul {
   overflow-wrap: break-word;
   display: flex;
   flex-direction: column;
@@ -240,14 +235,86 @@ button {
   padding: 0;
 }
 
-.myworks
-{
+.myworks {
   width: 100vw;
   height: 100vh;
   display: flex;
   background-color: #f9f9f9;
 }
 
+footer .container {
+  background-color: #1a1a1a;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 100px;
+}
+
+.footer-col ul {
+  list-style: none;
+}
+
+.footer-col h4 {
+  color: white;
+  margin-bottom: 25px;
+  font-size: 22px;
+  position: relative;
+  border-bottom: 2px solid #6666ae;
+}
+
+.footer-col ul li {
+  padding: 10px 0;
+}
+
+.footer-col ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.footer-col ul li a:hover {
+  opacity: 1;
+}
+
+.footer-col input {
+  border: none;
+  width: 250px;
+  height: 45px;
+  display: block;
+  padding-left: 20px;
+  margin: 14px 0;
+}
+
+.footer-col .inputsubmit {
+  padding: 0px 20px;
+  background-color: #c93f1d;
+  border: none;
+  cursor: pointer;
+}
+
+.col p {
+  color: white;
+}
+
+.row hr {
+  opacity: 0.7;
+}
+
+.row .socialicons i {
+  display: inline-block;
+  color: white;
+  font-size: 1.25rem;
+  margin: 0 15px;
+  transition: 0.5s;
+}
+
+.row .socialicons i:hover {
+  color: #c93f1d;
+}
 
 @media only screen and (max-width: 1366px) {
   .image_section {
@@ -266,8 +333,6 @@ button {
     width: 100vw;
     height: 100vh;
     position: absolute;
-  
-    
   }
   .icons {
     display: none;
@@ -300,7 +365,16 @@ button {
   .left_logo {
     letter-spacing: 4px;
   }
+
+  footer .row {
+    flex-direction: column;
+    padding: 20px 30px;
+  }
+  footer .footer-col ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .footer-col input {
+    width: 100;
+  }
 }
-
-
-
